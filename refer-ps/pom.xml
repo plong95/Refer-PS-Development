@@ -12,7 +12,7 @@
         <module>azura-server</module>
         <module>azura-runelite</module>
     </modules>
-    </properties>
+
     <repositories>
         <repository>
             <id>runelite</id>
