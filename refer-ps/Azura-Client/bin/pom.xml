@@ -16,6 +16,11 @@
         </repository>
     </repositories>
     <dependencies>
+    <dependency>
+	    <groupId>com.github.plong95</groupId>
+	    <artifactId>Refer-PS-Development</artifactId>
+	    <version>master-SNAPSHOT</version>
+	</dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>

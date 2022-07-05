@@ -22,6 +22,11 @@
             <version>2.8.6</version>
         </dependency>
         <dependency>
+	    <groupId>com.github.plong95</groupId>
+	    <artifactId>Refer-PS-Development</artifactId>
+	    <version>master-SNAPSHOT</version>
+	    </dependency>
+        <dependency>
             <groupId>com.github.plong95</groupId>
             <artifactId>java-discord-rpc</artifactId>
             <version>v2.0.1</version>

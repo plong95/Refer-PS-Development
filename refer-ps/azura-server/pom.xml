@@ -17,20 +17,8 @@
 
 	<repositories>
 		<repository>
-			<id>jcenter</id>
-			<name>jcenter-bintray</name>
-			<url>https://jcenter.bintray.com</url>
-		</repository>
-		<repository>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>bintray.kotlin.eap</id>
-			<name>Bintray Kotlin EAP Repository</name>
-			<url>https://dl.bintray.com/kotlin/kotlin-eap</url>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
 		</repository>
 	</repositories>
 
@@ -55,6 +43,11 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.6</version>
+		</dependency>
+		<dependency>
+	    <groupId>com.github.plong95</groupId>
+	    <artifactId>Refer-PS-Development</artifactId>
+	    <version>master-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.json</groupId>
