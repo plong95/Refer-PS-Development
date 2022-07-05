@@ -21,12 +21,12 @@ public class Configuration {
 	
 	public final static int CLIENT_VERSION = 3;
 	public static boolean localHost = true;
-	public static final boolean FORCE_CACHE_UPDATE = true;
+	public static final boolean FORCE_CACHE_UPDATE = false;
 	public static final boolean STOP_CACHE_UPDATES = false;
 	public static final boolean DROPBOX_MODE = false;
 	public final static String CLIENT_NAME = "Solak";
-	public final static String CACHE_DIRECTORY_NAME = "Solak";
-	public static final String SETTINGS_DIRECTORY_NAME = "Lunite_settings";
+	public final static String CACHE_DIRECTORY_NAME = "Refer-PS Cache";
+	public static final String SETTINGS_DIRECTORY_NAME = "Refer-Settings";
 	public final static boolean JAGCACHED_ENABLED = false;
 	public final static String JAGCACHED_HOST = "";
 	public final static int SERVER_PORT = 9420;
@@ -64,6 +64,6 @@ public class Configuration {
 	public static boolean TOGGLE_FOV = true;
 	public static boolean DEPTH_BUFFER = false;
 	public final static String SERVER_HOST() {
-		return localHost ? "127.0.0.1" : "147.135.65.179";//104.161.43.45 - 147.135.65.179
+		return localHost ? "127.0.0.1" : "192.168.56.1";//104.161.43.45 - 147.135.65.179
 	}
 }

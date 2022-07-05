@@ -15,16 +15,16 @@ import java.util.zip.ZipInputStream;
  */
 public class CacheDownloader {
 
-	private static final String CACHE_FILE_NAME = "Solak.zip"; //The name of the actual .zip file
+	private static final String CACHE_FILE_NAME = "Refer-PS Cache.zip"; //The name of the actual .zip file
 
-	private static final String CACHE_URL = "https://www.dropbox.com/s/v0owb8orxlj4c64/Solak.zip?dl=1";//"https://www.dropbox.com/s/7kmo572yi5lqmw2/Solak.zip?dl=1";
-	private static final String NEWEST_VERSION_FILE_URL = "https://www.dropbox.com/s/y0lx1anxc2o37za/cache_version.txt?dl=1";
+	private static final String CACHE_URL = "https://www.dropbox.com/s/v6jh4yx0i25ur09/Refer-PS%20Cache.zip?dl=0";//"https://www.dropbox.com/s/7kmo572yi5lqmw2/Solak.zip?dl=1";
+	private static final String NEWEST_VERSION_FILE_URL = "https://www.dropbox.com/s/v6jh4yx0i25ur09/Refer-PS%20Cache.zip?dl=0";
 	private static final String CURRENT_VERSION_FILE = "cache_version.txt"; //The location of the local cache_version txt file
 
 	public static final String URL_TO_LOADING_IMAGES = "https://solak.io/resources/";
 	public static final String MIRROR_URL_TO_LOADING_IMAGES = "https://solak.io/resources/"; //If first link is broken, it will attempt to download from here
 
-	public static boolean UPDATING = true;
+	public static boolean UPDATING = false;
 
 	public static boolean updatedCache() {
 		try {

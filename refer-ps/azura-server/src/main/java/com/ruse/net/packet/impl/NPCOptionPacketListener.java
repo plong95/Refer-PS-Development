@@ -781,7 +781,7 @@ public class NPCOptionPacketListener implements PacketListener {
             }
         }
 
-       /* if (player.getRights() != PlayerRights.DEVELOPER) {
+       * if (player.getRights() != PlayerRights.DEVELOPER) {
             for (NpcRequirements req : NpcRequirements.values()) {
                 if (interact.getId() == req.getNpcId()) {
                     if (req.getKillCount() > 0){

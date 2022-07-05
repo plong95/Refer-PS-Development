@@ -272,7 +272,7 @@ public class ConnectionHandler {
 		}
 	}
 
-	/**
+	**
 	 * Determines if the specified host is connecting locally.
 	 *
 	 * @param host the host to check if connecting locally.

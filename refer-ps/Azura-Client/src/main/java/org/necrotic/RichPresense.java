@@ -11,7 +11,7 @@ import java.net.URL;
 
 public class RichPresense {
 
-	private final String CLIENT_ID = "863501926120292363";
+	private final String CLIENT_ID = "993595216743366786";
 
 	private DiscordRPC lib;
 	private DiscordRichPresence presence;

@@ -9876,18 +9876,18 @@ public class Client extends GameRenderer {
         return archive;
     }
 
-    @Override
-    public URL getCodeBase() {
-        try {
-            return new URL(Configuration.SERVER_HOST() + ":" + (80 + portOff));
-        } catch (Exception _ex) {
-        }
-        return null;
-    }
+    // @Override
+    // public URL getCodeBase() {
+    //     try {
+    //         return new URL(Configuration.SERVER_HOST() + ":" + (80 + portOff));
+    //     } catch (Exception _ex) {
+    //     }
+    //     return null;
+    // }
 
-    public String getDocumentBaseHost() {
-        return Signlink.mainapp != null ? Signlink.mainapp.getDocumentBase().getHost().toLowerCase() : "";
-    }
+    // public String getDocumentBaseHost() {
+    //     return Signlink.mainapp != null ? Signlink.mainapp.getDocumentBase().getHost().toLowerCase() : "";
+    // }
 
     private int getExperienceForLevel(int level) {
         int points = 0;
